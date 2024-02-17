@@ -1,0 +1,2059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns00001100101" font="Lato" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100101" font="Lato" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npxnabnsnfns00001100101" font="Lato" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100100" font="Lato" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="PAWCERT" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001100101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001100101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6Mi5YIKsFZA" displaytext="Home Page" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Mi5YIKsFZA.6CHaivsqSSK" displaytext="Home Page" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6fUuhOFSluN" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6fUuhOFSluN.5VO33u1tAL0" displaytext="A" expand="false" type="slide" />
+            <slidelink slideid="_player.6fUuhOFSluN.5fpji9PUS9n" displaytext="About PAW Certification" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5qeEzpyOZcz" displaytext="The Human Element" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5qeEzpyOZcz.5oLkpwAgLlR" displaytext="The Human Element" expand="false" type="slide" />
+            <slidelink slideid="_player.5qeEzpyOZcz.5zeF6dDiSIO" displaytext="Be Patient" expand="false" type="slide" />
+            <slidelink slideid="_player.5qeEzpyOZcz.65uW0BPgJUG" displaytext="Be Friendly" expand="false" type="slide" />
+            <slidelink slideid="_player.5qeEzpyOZcz.6dwSO2ZPPFF" displaytext="Be Professional" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Z4rMHLiVG8" displaytext="Understanding Breed-Specific &amp;amp; Gender Specific Traits" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Z4rMHLiVG8.5Y0tHEHZwnu" displaytext="Understanding Breed-Specific &amp;amp; Gender-Specific Traits" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6fOgvjCJrKr" displaytext="Definitions" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6o8eVyqrWbS" displaytext="Dog Breeds" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6nQjZd8h8VP" displaytext="Dog Breeds Cont&amp;apos;d" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6aFp86xH1VB" displaytext="Dog Breed Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6VvYgLFq2F4" displaytext="Dog Breed Examples Cont&amp;apos;d" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6dGjSzJqSay" displaytext="Dog Breed Examples Cont&amp;apos;d" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.5yrtYSBgPHR" displaytext="Cat Breeds" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.5tLJ7Yaz5LD" displaytext="Cat Breeds (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6lCA1TydIFj" displaytext="Male Dogs: Reproductive Tract" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.5yMU91auiee" displaytext="Female Dogs: Reproductive Tract" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.6XVc1r0OcqV" displaytext="Male Cats: Reproductive Tract" expand="false" type="slide" />
+            <slidelink slideid="_player.6Z4rMHLiVG8.5ifKcVlwLqb" displaytext="Female Cats: Reproductive Tract" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Ht0E5cXMIq" displaytext="Basic Anatomy of Dogs and Cats" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Ht0E5cXMIq.5f5UyPcN4ye" displaytext="Basic Anatomy of Dogs and Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5pQqYNaUWiP" displaytext="Dogs: Skull" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6SgbE9Zyh8N" displaytext="Dogs: Skeletal System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.62mck69JYVQ" displaytext="Dogs: Paws" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6OeXA6UWphS" displaytext="Dogs: Tongue" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6YaLgc0KHvn" displaytext="Dogs: Teeth" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6A3eVAyQfBK" displaytext="Dogs: Nails" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6N3CN2yLZEo" displaytext="Dogs: Heart" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6SeSN2bVRpn" displaytext="Dogs: Intelligence" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5dQpAGrVWow" displaytext="Dogs: Eyes" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5XFrJMvIClp" displaytext="Dogs: Tail" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5u2vpYwvIy8" displaytext="Dogs: Neck" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5wHX7LiTgzQ" displaytext="Dogs: Gastrointestinal System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5wPBPx1fRCB" displaytext="Dogs: Whiskers" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5eqVZgFQJOI" displaytext="Dogs: Hackles" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.66lHxb7MxS8" displaytext="Dogs: Temperature" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6dp0YeKXsl6" displaytext="Dogs: Hearing Range" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5uOxIbo0ued" displaytext="Dogs: Gestation Period" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6NzQ4MlNXjG" displaytext="Dogs: Chromosomes" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5ahL10mXGwU" displaytext="Cats: Ears" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5zknuxM9J68" displaytext="Cats: Teeth" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6r0h4TNnkBZ" displaytext="Cats; Tongue" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5yBobIDKrh6" displaytext="Cats: Whiskers" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6jLhS2kXo84" displaytext="Cats: Paws" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5tw1k1qtiuV" displaytext="Cats: Claws" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.60P0pVFJ7cF" displaytext="Cats: Skeletal System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5qul1POqEXp" displaytext="Cats: Bones" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.63DpPEJ0qr1" displaytext="Cats: Cardiovascular System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6fwAqcrxpZe" displaytext="Cats: Lymphatic System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5d0PSbCABib" displaytext="Cats: Digestive System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5o0NVgXMeXb" displaytext="Cats: Integumentary System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6VzTfOKVnem" displaytext="Cats: Musculoskeletal System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.60MW3BzR4EI" displaytext="Cats: Respiratory System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.5mpV4pf5m5d" displaytext="Cats: Urogenital System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6DVOiGiDuN5" displaytext="Cats: Nervous System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6VWkvDaM0MO" displaytext="Cats: Endocrine System" expand="false" type="slide" />
+            <slidelink slideid="_player.6Ht0E5cXMIq.6RNKiPOXMzz" displaytext="Cats: Hematopoietic System" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SuobePvkrx" displaytext="Breed-Specific Conditions" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SuobePvkrx.5lZqEombJkj" displaytext="Breed-Specific Conditions: Dogs" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6CKajYis60M" displaytext="Dogs: Dalmatians" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5uyaYhrhCQy" displaytext="Dogs: Labradors" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5ek1zyhlm6W" displaytext="Dogs: Golden Retrievers" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6KjWw0zRhfC" displaytext="Dogs: Bulldogs" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6CAWqm0DN5D" displaytext="Dogs: Dachshunds" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5j6VFCqyfAj" displaytext="Dogs: Great Danes" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6hOvPiih671" displaytext="Dogs: Boxers" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6Q4v9lAtkNN" displaytext="Dogs: Cocker Spaniels" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6pgIbythNge" displaytext="Dogs: Yorkshire Terriers (Yorkies)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5keIU2WXokl" displaytext="Dogs: Poodles" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5jySsUWSHAY" displaytext="Dogs: Other Breeds" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6BFXHTINyGy" displaytext="Breed-Specific Conditions: Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6rEQcAb616i" displaytext="Cats: Rex (Cornish Rex &amp;amp; Devon Rex)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5v2oMWuh589" displaytext="Cats: Abyssinian" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6SgBL1eE6xJ" displaytext="Cats: Manx" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5t1eaEUqGbs" displaytext="Cats: Norwegian Forest Cat" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6O3jMqkmpiH" displaytext="Cats: Bengal" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6BC2cXdbgbO" displaytext="Cats: Burmese" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6Tna2r65ax4" displaytext="Cats: Ragdoll" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6f8ulyyKc3q" displaytext="Cats: Siamese" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.61Q51pqgcTk" displaytext="Cats: Himalayan" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6a7t6S1PBMB" displaytext="Cats: Maine Coon" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.62tYqURSrGS" displaytext="Cats: Persian" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5w6IJvWgdYJ" displaytext="Breed-Specific Conditions" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.63PcZ6tO2lo" displaytext="Breed-Specific Conditions: Gastric Dilation and Volvulus" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.5kvrRvDbfH0" displaytext="Breed-Specific Conditions: GDV (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6eAqZecQmCI" displaytext="Breed-Specific Conditions: GDV (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SuobePvkrx.6WKXsqha9gV" displaytext="Breed-Specific Conditions: GDV (Cont&amp;apos;d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69mMFdpVjvy" displaytext="Starting a Pet Care Operation" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69mMFdpVjvy.6cZMMKJ0IDx" displaytext="Starting a Pet Care Operation" expand="false" type="slide" />
+            <slidelink slideid="_player.69mMFdpVjvy.6lTkNuLa89f" displaytext="Administrative Duties: Recordkeeping" expand="false" type="slide" />
+            <slidelink slideid="_player.69mMFdpVjvy.61BWXgbtrT2" displaytext="Administrative Duties: Recordkeeping (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.69mMFdpVjvy.6Y1RhorQgTa" displaytext="Administrative Duties: Pre-Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.69mMFdpVjvy.5X7N79odB9M" displaytext="Administrative Duties: Pre-Screen (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.69mMFdpVjvy.6lSWqTALKkv" displaytext="Administrative Duties: Pre-Screen (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.69mMFdpVjvy.6npayCS6b9v" displaytext="Administrative Duties: Pre-Screen (Cont&amp;apos;d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5t8MfV0X75J" displaytext="Care Basics" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5t8MfV0X75J.6BuXtplAQQT" displaytext="Care Basics" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.5qq8OfS0Bvj" displaytext="Care Basics: Maintenance Examination for Dogs - Eyes" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.65591lOgcLB" displaytext="Care Basics: Maintenance Examination for Dogs - Nose" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6pb1A8se0hs" displaytext="Care Basics: Maintenance Examination for Dogs - Ear" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6FPStnypqLO" displaytext="Care Basics: Maintenance Examination for Dogs - Mouth" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6e57lcp8KnX" displaytext="Care Basics: Maintenance Examination for Dogs - Body" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.62fn7eZHfUw" displaytext="Care Basics: Maintenance Examination for Dogs - Massage" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6iBtTdlb1s6" displaytext="Care Basics: Maintenance Examination for Dogs - Heart" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6k3s7aAuLbb" displaytext="Care Basics: Maintenance Examination for Dogs - Stomach" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6BRH4n0yCwI" displaytext="Care Basics: Maintenance Examination for Dogs - Back" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.5qoYwPnimWI" displaytext="Care Basics: Maintenance Examination for Dogs – Paws" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.62ngUrJ32FE" displaytext="Care Basics: Maintenance Examination for Dogs – Torso" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.5sLZNw6hNkM" displaytext="Care Basics: Maintenance Examination for Dogs – Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6GxAhGiDYTJ" displaytext="Care Basics: Maintenance Examination for Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.5stX3WxKarX" displaytext="Care Basics: Maintenance Examination for Cats (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5t8MfV0X75J.6PfSm6xGj5N" displaytext="Care Basics: Maintenance Examination" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6mV3w3SMpeR" displaytext="Life Stages" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6mV3w3SMpeR.6Me3DEN0jOJ" displaytext="Life Stages: Dogs - Puppy" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5s9uYyWVYy7" displaytext="Life Stages: Dogs – Adult" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.68zBzhmXcJW" displaytext="Life Stages: Dogs – Senior" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6VDBe67oFLK" displaytext="Life Stages: Dogs – 8 Life Stage Guidelines - Fact #1" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5igqkfKldRK" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #2" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5eSP1aFTjTt" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #2 (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6Y1Pwwn0StM" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #2 (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6TGoqYTqT78" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #2 (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6r6q7LO2jCw" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #3" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.61OdhHhe2xf" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #4" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6Xg3gLTT5WO" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #5" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.65Wd2TffHWY" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #6" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5nu6eVEVsPO" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #7" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6eYWUsEEcWP" displaytext="Life Stages: Dogs - 8 Life Stage Guidelines - Fact #8" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6KB3bJDyjXY" displaytext="Life Stages: Cats - Kitten" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6GTeB71ewCu" displaytext="Life Stages: Cats - Adult" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5ZVjmZ1RGfy" displaytext="Life Stages: Cats - Adult - Senior" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6WFGEZMLHLd" displaytext="Life Stages: Cats – Life Stage Guidelines – Veterinary Checkups" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5ffNDo2omGK" displaytext="Life Stages: Cats – Life Stage Guidelines – At All Ages" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6KzhQVPykdu" displaytext="Life Stages: Cats - Life Stage Guidelines - Medical History" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6mbpJD7Ly0X" displaytext="Life Stages: Cats - Life Stage Guidelines - Extra Focus During the Checkup" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5X72nkWyS6o" displaytext="Life Stages: Cats - Life Stage Guidelines - Nutrition and Weight Management" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5d1MAsDlduw" displaytext="Life Stages: Cats – Life Stage Guidelines – Behavior and Environment - Kitten" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6A4whzRt1ct" displaytext="Life Stages: Cats – Life Stage Guidelines – Behavior and Environment - Young Adult" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6EY6M5GsW9H" displaytext="Life Stages: Cats – Life Stage Guidelines – Behavior and Environment - Mature Adult/Senior" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5dgIYgK40UA" displaytext="Life Stages: Cats – Life Stage Guidelines – Behavior and Environment - All Stages" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6isw07vcaAg" displaytext="Life Stages: Cats – Life Stage Guidelines – Litter Box - Kitten" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6ASgv1J8fLi" displaytext="Life Stages: Cats – Life Stage Guidelines – Litter Box - Young Adult" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6K5o5ArY5J2" displaytext="Life Stages: Cats – Life Stage Guidelines – Litter Box - Mature Adult/Senior" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6bWjJHbEYyJ" displaytext="Life Stages: Cats – Life Stage Guidelines – Litter Box - All Stages" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5i9jbGIj688" displaytext="Life Stages: Cats – Life Stage Guidelines – Oral Health - Kitten" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6jw5sc0CMV2" displaytext="Life Stages: Cats – Life Stage Guidelines – Oral Health - Young Adult" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5Wv4JV3wFzA" displaytext="Life Stages: Cats – Life Stage Guidelines – Oral Health - Mature Adult/Seniors" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.6OrYG0ttzqz" displaytext="Life Stages: Cats – Life Stage Guidelines – Oral Health - All Stages" expand="false" type="slide" />
+            <slidelink slideid="_player.6mV3w3SMpeR.5V76jVZevxA" displaytext="Life Stages: Cats – Life Stage Guidelines – Parasite Control - All Stages" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6dOJ89spEtd" displaytext="Feeding Guidelines" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6dOJ89spEtd.6RMgDcHmy7m" displaytext="Feeding Guidelines: Dogs - Puppy" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.6NGfqQoTijm" displaytext="Feeding Guidelines: Dogs - Puppy (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.6EsiJyCIku1" displaytext="Feeding Guidelines: Dogs - Puppy (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.6bLnUsh8lwf" displaytext="Feeding Guidelines: Dogs - Puppy FAQ" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.6FWpVyHmddA" displaytext="Feeding Guidelines: Dogs - Puppy FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.6YH9OF61Hk2" displaytext="Feeding Guidelines: Dogs - Adults/Seniors" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.5hyiKkGWZgI" displaytext="Feeding Guidelines: Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.5jSxR7JBxu3" displaytext="Feeding Guidelines: Cats - Kitten" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.5Y6uxpK5j8y" displaytext="Feeding Guidelines: Cats - Kitten (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.61LZFA7CZMx" displaytext="Feeding Guidelines: Cats - Adult/Senior" expand="false" type="slide" />
+            <slidelink slideid="_player.6dOJ89spEtd.5abRGdakRmr" displaytext="Feeding Guidelines: Cats FAQ" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Qs6IFbSpOx" displaytext="Crate Training" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Qs6IFbSpOx.5c9574efOqA" displaytext="Crate Training" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.5m1xZqNwpQz" displaytext="Crate Training - Step #1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.6NTukxn6SRb" displaytext="Crate Training - Step #1 (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.5dZaBfbdDNl" displaytext="Crate Training - Step #2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.6UnoJQKxAQH" displaytext="Crate Training - Step #2 (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.6iue8PUlSEB" displaytext="Crate Training - Step #3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.5jJaOXZJB3v" displaytext="Crate Training - Step #3 (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.66qEtY0TEjr" displaytext="Crate Training - Step #4A" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.5qs6IAegQ39" displaytext="Crate Training - Step #4A (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.6U5N78KVQII" displaytext="Crate Training - Step #4B" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.6QvkU9t0mB8" displaytext="Crate Training - Step #4B (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.5wdNyAlbh9P" displaytext="Crate Training - Step #4B - Potential Problems - Whining" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qs6IFbSpOx.6PzpHgWa6ux" displaytext="Crate Training - Step #4B - Potential Problems - Separation Anxiety" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SCb2rTQdKe" displaytext="Geriatric Pets" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SCb2rTQdKe.6itbIpkctkz" displaytext="Geriatric Pets" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5yPgg3AUymg" displaytext="Geriatric Pets - FAQ" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5bDx0we0bbQ" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5eKHt8mUP1i" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5iflUiyRaz6" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5rmZUXpYKaN" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.69N5le9uJ6f" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5VNm51WuJhF" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6oKNuBfZuzz" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5z4OrILcCfx" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5xle0PWAmVX" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5f3LpMVmi4Q" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5rGwoDMUPTf" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6A8jzOzITZS" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6QiPmhjM73z" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6g4inuY1id6" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6HQM30NoW2z" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.5rqnkCq3his" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6qEa6u4J0WQ" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6OLUQdoonlZ" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SCb2rTQdKe.6LGCzHn0lRI" displaytext="Geriatric Pets - FAQ (Cont&amp;apos;d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5oAUTJPGg6g" displaytext="Caring for Blind Pets" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5oAUTJPGg6g.5pzS6DzRxd7" displaytext="Caring for Blind Pets" expand="false" type="slide" />
+            <slidelink slideid="_player.5oAUTJPGg6g.5urwdEP3uvC" displaytext="Caring for Blind Pets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5oAUTJPGg6g.5n2HFQBGtmi" displaytext="Caring for Blind Pets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5oAUTJPGg6g.5X1EHMu7cgf" displaytext="Caring for Blind Pets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5oAUTJPGg6g.6AVuBmemX3Z" displaytext="Caring for Blind Pets (Cont&amp;apos;d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.65jKIvhVOAz" displaytext="Caring for Deaf Pets" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.65jKIvhVOAz.6CLwpaRWUar" displaytext="Caring for Deaf Pets - Dogs" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5y5skJ4mmKc" displaytext="Caring for Deaf Pets - Dogs (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.6b4z5dySrbN" displaytext="Caring for Deaf Pets - Dogs (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5rkXOHKfJUr" displaytext="Caring for Deaf Pets - Dogs (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5jAf4HWyrU8" displaytext="Caring for Deaf Pets - Deaf Dog Training Tips" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5redOlxTFeY" displaytext="Caring for Deaf Pets - Deaf Dog Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.6rOyl2OcriG" displaytext="Caring for Deaf Pets - Deaf Dog Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5kKZDhsItdw" displaytext="Caring for Deaf Pets - Deaf Dog Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.65On2lINCn8" displaytext="Caring for Deaf Pets - Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5l7yjEKjjGF" displaytext="Caring for Deaf Pets - Cats (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.6krIKMXxBOw" displaytext="Caring for Deaf Pets - Cats (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.6HuOgyNUDE8" displaytext="Caring for Deaf Pets - Deaf Cat Training Tips" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5wWwUhloz0m" displaytext="Caring for Deaf Pets - Deaf Cat Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.6DCQcgS5i8E" displaytext="Caring for Deaf Pets - Deaf Cat Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5gQgnWH5C4y" displaytext="Caring for Deaf Pets - Deaf Cat Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.6rcXfjUPRzM" displaytext="Caring for Deaf Pets - Deaf Cat Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.61w3PYgCxLP" displaytext="Caring for Deaf Pets - Deaf Cat Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.65jKIvhVOAz.5d15icemVeq" displaytext="Caring for Deaf Pets - Deaf Cat Training Tips (Cont&amp;apos;d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6IW7icUvtXH" displaytext="Pet Medications" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6IW7icUvtXH.6abvVIVxJ3B" displaytext="Pet Medications" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6Sn2yiQHG8v" displaytext="Pet Medications - Dogs - Oral - Pills/Capsules" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5csPRoMUfTU" displaytext="Pet Medications - Dogs - Oral - Pills/Capsules (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5fKDn377NRx" displaytext="Pet Medications - Dogs - Oral - Pills/Capsules (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5YJyXrXEHXR" displaytext="Pet Medications - Dogs - Oral - Pills/Capsules (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.685zfVDTwME" displaytext="Pet Medications - Dogs - Oral - Pills/Capsules (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6n2RRcnoZOz" displaytext="Pet Medications - Dogs - Oral - Liquid" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5cIkwuuw1y4" displaytext="Pet Medications - Dogs - Oral - Liquid (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6ezZ7snUXdH" displaytext="Pet Medications - Dogs - Oral - Liquid (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6fbZEHjs9bM" displaytext="Pet Medications – Dogs - Topical" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5l1EWhYkElw" displaytext="Pet Medications – Dogs - Topical (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.66EZRWJAg0q" displaytext="Pet Medications – Dogs - Eye Drops" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6QsciIMPZ80" displaytext="Pet Medications – Dogs - Eye Drops (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5nBlmeC4yiM" displaytext="Pet Medications – Dogs - Eye Drops (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6lfcnLRe793" displaytext="Pet Medications - Other Ointments" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6Y7taLViwLu" displaytext="Pet Medications - Skin Creams" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6rDBc1aIn0X" displaytext="Pet Medications – Injections" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6HCDY35gXK1" displaytext="Pet Medications – Insulin Injections" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.60fuBBSVCBl" displaytext="Pet Medications – Insulin Injections (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6QSBr6xUMve" displaytext="Pet Medications – Administering Insulin" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5x3ke02UV1v" displaytext="Pet Medications – Administering Insulin (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.60HqlG0lkq1" displaytext="Pet Medications – Administering Insulin (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5oHgoJaFPKB" displaytext="Pet Medications - Examples of Medications - Oral" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6aPMnm5jji1" displaytext="Pet Medications – Examples of Medications – Eye/Ear/Skin" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6SOa4smNhVH" displaytext="Pet Medications – Medication Best Practices" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5gGF08vSusd" displaytext="Pet Medications – Medication Best Practices (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5m3bwviHwsF" displaytext="Pet Medications – Medication Best Practices (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.5tK7Dj6JjiU" displaytext="Pet Medications – Ancillary Services" expand="false" type="slide" />
+            <slidelink slideid="_player.6IW7icUvtXH.6p1HTb0UBsH" displaytext="Pet Medications – Ancillary Services" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.64dmoOQXvkl" displaytext="Safety" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.64dmoOQXvkl.6pbQ0sRKWfl" displaytext="Safety Equipment" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.64TS2KtDi3m" displaytext="Stay Calm" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5cEHvHJebAm" displaytext="Proper Equipment" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6dfTOkbR6DT" displaytext="Proper Equipment (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5umPnexDzjv" displaytext="Communication Tools" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6ZyAt2Fb6xm" displaytext="Fire Evacuation" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.63fa6JN8ICi" displaytext="First Aid Kits" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6cUEU7NwOlt" displaytext="First Aid Training" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6jrQzRWxgij" displaytext="First Aid Training (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5gCbT8zEbsD" displaytext="Food, Drink and Smoking" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5gbhnesrOyV" displaytext="Dog and Cat Bites" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6ZoUAZjm4rG" displaytext="Dog Bites" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5tqkvPegEhy" displaytext="Cat Bites" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.674UkDnFfxn" displaytext="Hand Washing" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5hSImlaeMS1" displaytext="Hand Washing (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5fWb5gMKuYZ" displaytext="Immunosuppressed Humans" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5W8xYccWsBS" displaytext="Zoonotic Diseases" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6OaoKjGSeVq" displaytext="Zoonotic DIseases: Rabies" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6fyU7MKm5JI" displaytext="Zoonotic Diseases: Cat Scratch Fever" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5nZOQMFgBNS" displaytext="Zoonotic Diseases: Leptospirosis" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6LpoQV6niuw" displaytext="Zoonotic Diseases: Intestinal Infections" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6e23B95idJH" displaytext="Zoonotic Diseases: MRSA" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6Uw1Ga6Sq5T" displaytext="Zoonotic Diseases: Roundworms" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6dFxr1d7Rnu" displaytext="Zoonotic Diseases: Hookworms" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5er1yHfyHFO" displaytext="Zoonotic Diseases: Toxoplasmosis" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5ahcpzEigL4" displaytext="Zoonotic Diseases: Mites" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.6Q5AyizmGeg" displaytext="Zoonotic Diseases: Ringworm (Dermatophytosis)" expand="false" type="slide" />
+            <slidelink slideid="_player.64dmoOQXvkl.5XuMW8OCMOh" displaytext="Zoonotic Diseases: Ringworm (Dermatophytosis) (Cont&amp;apos;d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6RvqARQbzQD" displaytext="Pet Care Environment" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6RvqARQbzQD.5ZJxkbUvJeK" displaytext="Pet Care Environment" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6YpT0LYzeZl" displaytext="Pet Care Environment (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6YGlLUWie7U" displaytext="Pet Care Environment (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6AKGt3OWMXv" displaytext="Vaccinations" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6qUzgL3Ixki" displaytext="Vaccinations (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.5iaM9jJrAEM" displaytext="Vaccinations (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6doLJctWu0r" displaytext="Disinfectants" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6QhB9MWnmdk" displaytext="Disinfectants (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.613TwBMTcF7" displaytext="Disinfectants - &amp;quot;Green Options&amp;quot;" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6hmE5emIMaH" displaytext="Ventilation" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6bUF5JyOJPb" displaytext="Ventilation (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.5hE3T5ygWHU" displaytext="Ventilation (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.68Be3FljcNt" displaytext="Ventilation (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.69kFELClWKI" displaytext="Odor Control" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6exBazGseLq" displaytext="Odor Control (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6ji3MUwPZGV" displaytext="Odor Control (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.61B5H4VDRw2" displaytext="Pet Comfort" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.6kFJwYbgkHw" displaytext="Pet Comfort (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6RvqARQbzQD.5wr6v8miA5Y" displaytext="Pet Comfort (Cont&amp;apos;d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5inKr3dYXbU" displaytext="Pet Behavior" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5inKr3dYXbU.5f64s908JdU" displaytext="Pet Behavior" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6f8DjJbc0wG" displaytext="Pet Behavior (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6SiD8qfkNN7" displaytext="Pet Behavior (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6fqO9bRkzrQ" displaytext="Pet Behavior (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6ErsLW03may" displaytext="Pet Behavior (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5ZV2CwDjFaV" displaytext="Trial Stay" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6bPIvygqbJz" displaytext="Dog &amp;amp; Cat Behavior" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5qaSLvsp0qB" displaytext="Restraint" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5n6Iq1HwJb8" displaytext="Restraint (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6JgATgF6xuF" displaytext="Aggressive Behavior in Dogs" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5Z7CL6PtJHX" displaytext="Aggressive Behavior in Dogs (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6AE3c9HmJBh" displaytext="Aggressive Behavior in Dogs (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6gGg9qLVP0r" displaytext="Dealing with Aggressive Pets" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6O2hEkG4Zlv" displaytext="Types of Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5bzYVabWzm8" displaytext="Types of Aggression - Dominance or Status-Related Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6qgvggygTGl" displaytext="Types of Aggression - Dominance or Status-Related Aggression (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5ekLal0eHZG" displaytext="Types of Aggression - Fear-Induced Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5uuIeH4XZHP" displaytext="Types of Aggression - Territorial Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6rpSUJt7ZDn" displaytext="Types of Aggression - Protective Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5fCVHrviJyt" displaytext="Types of Aggression - Possessive or Resource-Guarding Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5rYyC5i7O6L" displaytext="Types of Aggression - Displaced Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5slcAxUVpZg" displaytext="Types of Aggression - Conditioned Aggression" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.615OVKD3tD2" displaytext="Types of Aggression - Conditioned Aggression (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5pmnJMHK6jP" displaytext="Aggression in Cats (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6b9kq7b3BHg" displaytext="Aggression in Cats (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.69MYzpAKdnW" displaytext="Aggression in Cats (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6qdyPnuaPzn" displaytext="Body Postures of the Aggressive Cat" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5konjmbIxC8" displaytext="Body Postures of the Aggressive Cat (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.64h59DMLhlO" displaytext="Defensive Posture" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.63u60xTFEJg" displaytext="Defensive Posture (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6jJB2cX7Bhi" displaytext="Displaced Aggression in Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5xtaqWNtAde" displaytext="Other Cat Behaviors" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6e6fHTcB2E0" displaytext="Other Cat Behaviors" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.62ngZb5mRCM" displaytext="Grooming the Cat" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6c6oYkaEVFw" displaytext="Other Behaviors in Dogs &amp;amp; Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6Bd8CdFTTCk" displaytext="Other Behaviors in Dogs &amp;amp; Cats (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.68F1pxG9Uty" displaytext="Other Behaviors in Dogs &amp;amp; Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5i8uCbNtMEo" displaytext="Other Behaviors in Dogs &amp;amp; Cats (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.5gQCaLMSeiE" displaytext="Other Behaviors in Dogs &amp;amp; Cats (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6Utst95wZZQ" displaytext="Other Behaviors in Dogs &amp;amp; Cats (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.5inKr3dYXbU.6bQGiOoO3Bh" displaytext="Other Behaviors in Dogs &amp;amp; Cats (Cont’d)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gEuxSSZeZq" displaytext="Pet Security" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gEuxSSZeZq.5fxyyZGgFUh" displaytext="Pet Security" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.62HwvMvji6N" displaytext="Pet Security (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6Dz7x7pC3cE" displaytext="Proper Use of Leads and Leashes" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5kVXs3Dws3S" displaytext="Proper Use of Leads and Leashes (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.65X7NXleEEr" displaytext="Proper Entrance and Exit of Enclosures" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6gHw0dFilb0" displaytext="Secure Gates" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5pwApsjHJgs" displaytext="Secure Gates - Doors" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6YLXadUmwFm" displaytext="Secure Gates - Enclosures" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6PfH5BMavQl" displaytext="Secure Gates - Escape Attempts" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5y6VJ0boJEI" displaytext="Secure Gates – Escape Attempts (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.666R9V3HXnY" displaytext="Secure Gates – Cats and Escape" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6UaurL1JVG4" displaytext="Secure Gates – Cats and Escape (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6OcxJYB5g6s" displaytext="Transporting Cats" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6MBAViBYEpS" displaytext="Personal Belongings" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6UhDK6cw5G8" displaytext="Personal Belongings (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5tpHGcE5796" displaytext="Appropriate Personal Belongings" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6rj09teRt0q" displaytext="Accepting Treats" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6Be2Z1aupBd" displaytext="Bedding Options" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6BgOw25Wl6u" displaytext="Policies" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6ITq1SNgDsw" displaytext="Caution with Collars" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5eWE2pGTZV1" displaytext="Caution with Collars (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5kUxuRru7kL" displaytext="Reliable Identification Collars" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.67dDVyli6cz" displaytext="Daycare (Group Play) and Collars" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5gFw0glvtll" displaytext="Emergency Evacuation" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6cM7tnUxrh2" displaytext="Emergency Evacuation (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.6hjHdrLtW6I" displaytext="Fire Prevention" expand="false" type="slide" />
+            <slidelink slideid="_player.6gEuxSSZeZq.5W0keENXXLR" displaytext="Reparis and Maintenance" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6bTY543lbsP" displaytext="Vaccinations" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6bTY543lbsP.6LI767DZjg2" displaytext="Vaccinations" expand="false" type="slide" />
+            <slidelink slideid="_player.6bTY543lbsP.6egn5Dt84xW" displaytext="Vaccinations (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6bTY543lbsP.5ggLiWlVWnZ" displaytext="Vaccinations (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6bTY543lbsP.5zVN5yR2gNK" displaytext="Vaccinations (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6bTY543lbsP.5staw6UopKA" displaytext="Exceptions" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6H1s39Ze8Yc" displaytext="Nutrition" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6H1s39Ze8Yc.6FwHEdZ70x1" displaytext="Nutrition" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6461ClHHilp" displaytext="Nutrition (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6rY2mxxty3r" displaytext="Nutrition (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6Bopx6UHPdb" displaytext="Nutrition (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.69miZgw3u8w" displaytext="Nutrition (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.64iHot8nIfz" displaytext="Pet Nutrition Needs Vary" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.5W0fWl6kBaz" displaytext="Prescription Diets" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6Wo0p5j1oFb" displaytext="Portions" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.5YjPcbxnkXK" displaytext="Obese Pets" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6baU5nBrN18" displaytext="Obese Pets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6p7nh3YI3dj" displaytext="Special Cases" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.5ttQmtCKWKy" displaytext="Food Allergies" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.67ZMFDkdhFK" displaytext="Basic Elements of Survival" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6JNEFdG8m1q" displaytext="Types of Diets" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6HS3bK9z9TY" displaytext="Types of Diets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6JxUZBkjvgY" displaytext="Types of Diets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6eppFbfXFcq" displaytext="Types of Diets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6qqWLlfIM24" displaytext="Types of Diets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6g0E2C2PBXU" displaytext="Types of Diets (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6hSrFePZMQD" displaytext="Cats Are Not Small Dogs" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.5XASPnyeoz5" displaytext="Nutrition Issues During Pet Care" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6X0rDFJ37kw" displaytext="How to Feed" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.5V7ggVWy5Ej" displaytext="How Often to Feed" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6AK9VHzg4Vp" displaytext="How Often to Feed (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.60kIm7nNL51" displaytext="How Often to Feed (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6H1s39Ze8Yc.6gTL5y84bb5" displaytext="Harmful Foods" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JbCDEVa88F" displaytext="Maintenance Grooming" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JbCDEVa88F.6E5Oj5UwuhR" displaytext="Grooming" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5eb0TkjiMLb" displaytext="Maintenance Grooming" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5dhCopick1l" displaytext="Maintenance Grooming (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5hNPPHJQEub" displaytext="Maintenance Grooming (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5YKkwQk8vqH" displaytext="Maintenance Grooming (Cont’d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.605KD77rl07" displaytext="Exit Baths" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5yglytLHsOA" displaytext="Complete Grooming Services" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5e0xW1gJIJ2" displaytext="Nail Trimming" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5onPQHYXu9V" displaytext="Clipping Dog Nails" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5tReEnAf8vD" displaytext="Clipping Dog/Cat Nails" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.6mgkejXp4sX" displaytext="Ear Cleaning" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5VQOtCDuE0t" displaytext="Cleaning Dog Ears" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5kRhKD0wEtS" displaytext="Eye Cleaning" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.6g7CR2eeIgF" displaytext="Teeth Brushing" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5bczsxnnA2a" displaytext="Teeth Brushing (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.6ZLuJBk0W8g" displaytext="Bathing" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.6HOpfLOdzPJ" displaytext="Bathing (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.68AHf1qQitQ" displaytext="Bathing (Cont&amp;apos;d)" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.6IkSDwvoUdh" displaytext="Shampooing Dogs" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5qFPQgj2DV6" displaytext="Conditioning Dogs" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.6gGlTqnvVOf" displaytext="Rinsing/Drying Dogs" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.6Cn2LrhSIC7" displaytext="Allergies" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.5vqqmcrlWru" displaytext="Stripping" expand="false" type="slide" />
+            <slidelink slideid="_player.6JbCDEVa88F.67Pwkh98WoP" displaytext="Shedding and Molting" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
